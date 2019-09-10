@@ -77,7 +77,7 @@ namespace LegoMiniFigures
                     userFig.StartFight(demon);
                     userFig.EndFight();
                 }
-                else break;
+                else userFig.IsAlive = false;
             }
 
         }
